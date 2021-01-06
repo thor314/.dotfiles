@@ -1,5 +1,13 @@
 * My dotfiles, organized with [[https://github.com/anishathalye/dotbot][dotbot]].
-Usage:
-Get all the dotfiles: =git clone github.com/thor314/dotfiles.git && cd .dotfiles && ./install=
-Add a dotfiles: modify links in =install.conf.yaml=, which creates a sim-link from =.dotfiles= to the super directory.
-Move the dotfile into =.dotfiles=. Run =./install=
+Get all the dotfiles:
+
+=git clone github.com/thor314/dotfiles.git && cd .dotfiles && ./install=
+
+Add a =.$DOTFILE=: modify links section in =install.conf.yaml=, which creates a sim-link from =.dotfiles= to the
+super directory.
+
+To add another dotfile that's version controlled:
+
+Then move the =$DOTFILE= into =.dotfiles=. Then run =./install=.
+
+[[https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/][A good explanation]] of what's going on here by the author of =dotbot=.

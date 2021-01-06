@@ -2,8 +2,8 @@
 
 
 # setxkbmap modifies usermodmap
-userresources=$HOME/.Xresources
-usermodmap=$HOME/.Xmodmap
+# userresources=$HOME/.Xresources
+usermodmap=$HOME/.xmodmaprc
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 setxkbmap us dvorak -option ctrl:nocaps,altwin:hyper_win

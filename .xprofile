@@ -1,1 +1,2 @@
 xhost +SI:localuser:root
+setxkbmap dvorak -option ctrl:nocaps
