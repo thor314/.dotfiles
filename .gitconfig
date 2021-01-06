@@ -1,0 +1,14 @@
+[user]
+	email = thorck@protonmail.com
+	name = Thor
+	signingkey = DFD05DA9233D1FF7
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[github]
+	user = thor314
+[pull]
+	ff = only

@@ -1,0 +1,24 @@
+# help: https://github.com/anishathalye/dotbot#configuration
+- defaults:
+     link:
+      relink: true
+
+- clean: ['~'] # clean dead symlinks
+
+- link: # how to symbolically link files/dirs
+    ~/.zshrc: .zshrc  # zshell config setup
+    ~/.zsh.d:
+      force: true
+      path: .zsh.d
+    ~/.gitconfig: .gitconfig # git setup
+    ~/.hunspell_en_US: .hunspell_en_US # dictionary modifications
+    ~/.xinitrc: .xinitrc # startup script for X
+    ~/.xmodmaprc: .xmodmaprc # keymaps
+    ~/.xprofile: .xprofile # profile to load on startup
+
+- create: # create these dirs
+    - ~/Documents
+    - ~/Downloads
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
