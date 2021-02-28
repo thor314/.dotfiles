@@ -11,3 +11,5 @@ To add another dotfile that's version controlled:
 Then move the =$DOTFILE= into =.dotfiles=. Then run =./install=.
 
 [[https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/][A good explanation]] of what's going on here by the author of =dotbot=.
+
+Note that =.gitconfig= must updated with a correct gpg signing key.
