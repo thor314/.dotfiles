@@ -1,9 +1,9 @@
 [user]
 	email = thorck@protonmail.com
 	name = Thor
-	signingkey = DFD05DA9233D1FF7
+	signingkey = 941A2ADE813CB740
 [gpg]
-	program = gpg2
+	program = gpg
 [commit]
 	gpgsign = true
 [init]

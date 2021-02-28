@@ -20,5 +20,6 @@
     - ~/Documents
     - ~/Downloads
 
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
+# If any dotfiles are controlled by submodules
+#- shell:
+#  - [git submodule update --init --recursive, Installing submodules]
