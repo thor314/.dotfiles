@@ -13,7 +13,7 @@
     ~/.gitconfig: .gitconfig # git setup
     ~/.hunspell_en_US: .hunspell_en_US # dictionary modifications
     ~/.xinitrc: .xinitrc # startup script for X
-    ~/.xmodmaprc: .xmodmaprc # keymaps
+    #~/.xmodmaprc: .xmodmaprc # keymaps
     ~/.xprofile: .xprofile # profile to load on startup
 
 - create: # create these dirs
