@@ -47,4 +47,16 @@ export EDITOR=emacs
 # export LANG=en_US.UTF-8
 # git config --global init.defaultBranch main
 
-# Set aliases in .zprofile or $ZSH_CUSTOM
+# Set aliases in .zprofile (doesn't get loaded) or $ZSH_CUSTOM
+
+alias gist="gist -s -c"
+alias scrot="scrot -s"
+alias x1="xrandr --output HDMI-1 --auto --above eDP-1"
+alias x2="xrandr --output DP-1 --auto --right-of HDMI-1"
+alias x1o="xrandr --output HDMI-1 --off"
+alias x2o="xrandr --output DP-1 --off"
+alias setx="setxkbmap -option ctrl:swapcaps"
+alias bt="bluetoothctl connect 4C:87:5D:32:F5:75"
+
+# validate ssh key
+ssh-add ~/.ssh/id_ed25519

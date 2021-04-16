@@ -1,6 +1,6 @@
 [user]
 	email = thorck@protonmail.com
-	name = Thor
+	name = thor
 	signingkey = 941A2ADE813CB740
 [gpg]
 	program = gpg
