@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# NOTE! This file appears not to be loaded. .xprofile does appear to be loaded.
 
 # setxkbmap modifies usermodmap
 # userresources=$HOME/.Xresources
@@ -40,7 +41,6 @@
 # xrandr --setprovideroutputsource modesetting NVIDIA-0
 # xrandr --auto
 # xrandr --dpi 96 # uncomment if dpi is incorrect
-
 
 # twm &
 # I3 window manager

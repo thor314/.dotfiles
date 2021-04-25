@@ -1,12 +1,17 @@
 # xprofile allows you to execute commands at the beginning of the X user session
 # before the window manager is started.
 
-# xhost +SI:localuser:root
-
 # set keyboard
-setxkbmap dvorak -option ctrl:nocaps
+setxkbmap dvorak -option ctrl:swapcaps
 
-# set second monitor location
-# TODO: only run if there exists a second monitor
-xrandr --output HDMI-1 --auto --above eDP-1
-# xrandr --output HDMI-2 --auto --right-of HDMI-1
+# load .ssh configuration (I think?)
+eval `ssh-agent`
+
+# set desktop background
+feh --bg-scale ~/Pictures/like/ditherpunk.png
+
+# fn brightness buttons need this
+sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+
+# run emacs as a daemon
+emacs --daemon
