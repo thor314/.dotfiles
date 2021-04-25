@@ -59,4 +59,4 @@ alias setx="setxkbmap -option ctrl:swapcaps"
 alias bt="bluetoothctl connect 4C:87:5D:32:F5:75"
 
 # validate ssh key
-ssh-add ~/.ssh/id_ed25519
+# eval `ssh-agent`

@@ -6,6 +6,8 @@ setxkbmap dvorak -option ctrl:swapcaps
 
 # load .ssh configuration (I think?)
 eval `ssh-agent`
+# unclear: think I need to run this once on login.
+# ssh-add ~/.ssh/id_ed25519
 
 # set desktop background
 feh --bg-scale ~/Pictures/like/ditherpunk.png
