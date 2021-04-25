@@ -12,12 +12,8 @@
  #  XDG_SESSION_TYPE=x11 GDK_BACKEND=x11 exec startx
  # fi
 
-
 alias gist="gist -s -c"
-alias scrot="scrot -s"
-alias x1="xrandr --output HDMI-1 --auto --above eDP-1"
-alias x2="xrandr --output DP-1 --auto --left-of HDMI-1"
-alias x1o="xrandr --output HDMI-1 --off"
-alias x2o="xrandr --output DP-1 --off"
-alias setx="setxkbmap -option ctrl:swapcaps"
-alias bt="bluetoothctl connect 4C:87:5D:32:F5:75"
+# why swapcaps, not nocaps? Because sometimes bug, capslock turns on and then
+# there's no easy way to turn it off. Plus caps lock useful for YELLING.
+alias setx="setxkbmap dvorak -option ctrl:swapcaps"
+alias setus="setxkbmap us"
